@@ -1,0 +1,114 @@
+style.css
+    
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          line-height: 1.6;
+          background: #f4f4f4;
+          color: #333;
+        }
+    
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+    
+        navul {
+          list-style: none;
+          background: #444;
+          display: flex;
+          justify-content: center;
+        }
+    
+        navul li {
+          margin: 0 15px;
+        }
+    
+        navul li a {
+          color: white;
+          text-decoration: none;
+          padding: 10px;
+          display: block;
+        }
+    
+        navul li a:hover {
+          background: #555;
+        }
+    
+        main {
+          padding: 20px;
+        }
+    
+        section {
+          margin-bottom: 40px;
+        }
+    
+        .about img {
+          float: right;
+          width: 150px;
+          margin: 0 0 10px 20px;
+        }
+    
+        .skills ul {
+          list-style-type: square;
+          padding-left: 20px;
+        }
+    
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+        }
+    
+        table, th, td {
+          border: 1px solid #999;
+          padding: 10px;
+          text-align: left;
+        }
+    
+        form {
+          background: #fff;
+          padding: 20px;
+          border-radius: 10px;
+        }
+    
+        input[type="text"], input[type="email"], textarea {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+    
+        input[type="submit"] {
+          background: #007BFF;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+        }
+    
+        input[type="submit"]:hover {
+          background: #0056b3;
+        }
+    
+        footer {
+          background: #222;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          margin-top: 20px;
+        }
+    
+        .tooltip:hover::after {
+          content: "Tooltip info!";
+          color: orange;
+          margin-left: 5px;
+        }
